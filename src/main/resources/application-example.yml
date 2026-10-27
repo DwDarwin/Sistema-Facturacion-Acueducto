@@ -2,27 +2,4 @@ spring:
   application:
     name: sistema-facturacion-agua
 
-  datasource:
-    url: jdbc:postgresql://localhost:5432/facturacion_agua
-    username: postgres
-    password: 4054
 
-  jpa:
-    hibernate:
-      ddl-auto: update
-    open-in-view: false
-    properties:
-      hibernate:
-        format_sql: true
-
-  thymeleaf:
-    cache: false
-
-server:
-  port: 8080
-
-app:
-  demo:
-    enabled: true
-  facturacion:
-    dia-vencimiento: 15

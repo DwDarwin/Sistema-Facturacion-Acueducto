@@ -1,0 +1,13 @@
+package com.acueducto.facturacion;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableScheduling;
+
+@SpringBootApplication
+@EnableScheduling
+public class FacturacionAguaApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(FacturacionAguaApplication.class, args);
+    }
+}

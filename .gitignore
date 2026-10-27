@@ -1,0 +1,8 @@
+target/
+.idea/
+*.iml
+README2.md
+CAMBIOS_V3.md
+src/main/resources/templates/
+src/main/resources/static/
+src/main/resources/application.yml
